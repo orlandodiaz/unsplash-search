@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="unsplash-search",
-    version="0.1.0",
+    name="unsplash_search",
+    version="0.2.0",
     author="Orlando Diaz",
     author_email="orlandodiaz.dev@gmail.com",
     description="Search unsplash for photos",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/orlandodiaz/unsplash-search",
+    url="https://github.com/orlandodiaz/unsplash_search",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
