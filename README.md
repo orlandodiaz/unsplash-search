@@ -8,8 +8,11 @@ Unsplash-search is small python library to search for photos from the Unsplash p
 
 
 # Usage
+Import the UnsplashSearch module
 
-First and foremost, you must get an access key from the Unsplash Deverloper API website.
+    from unsplash_search import UnsplashSearch
+
+You must get an access key from the Unsplash Deverloper API website.
 
 You must then instantiate the UnsplashSearch Class with your key to use the program.
 
